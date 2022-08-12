@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <title>Prediction page</title>
+   <link href="../static/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+   <div class="main">
+      <div class="shift2">
+         <div class="navbar">
+            <div class="icon">
+               <h2 class="logo">DIABETES PREDICTION</h2>
+            </div>
+            <div class="shiftr">
+               <div class="menu">
+                  <ul>
+                     <li><a href="/">HOME</a></li>
+                     <li><a href="http://127.0.0.1:5000/hello">PREDICTION</a></li>
+                     <li><a href="http://127.0.0.1:5000/up">UPLOAD</a></li>
+                  </ul>
+
+               </div>
+               <div class="search">
+                  <input class="srch" type="search" name="" placeholder="Type To text">
+                  <a2 onclick="myfunction()"><button class="btn">Search</button></a2>
+                  <script>
+                  function myfunction(){
+                    window.location.href="https://www.google.com/?hl=ar";
+                  }
+                  </script>
+                  <!-- <a href=""><ion-icon name="logo-google"></ion-icon></a> -->
+              </div>
+            </div>
+         </div>
+      </div>
+      <div class="shift">
+         <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
+         <div class="wrapper">
+            <div class="title">
+               Enter the details
+            </div>
+            <form action='/hello' method='POST'>
+               <div class="field">
+                  <input type="number" required name="a">
+                  <label>Cholesterol</label>
+               </div>
+               <div class="field">
+                  <input type="number" required name="b">
+                  <label>Glucose</label>
+               </div>
+               <div class="field">
+                  <input type="number" required name="c">
+                  <label>hdl_chol</label>
+               </div>
+               <div class="field">
+                  <input type="number" required name="d" step="0.01">
+                  <label>chol_hdl_ratio</label>
+               </div>
+               <div class="field">
+                  <input type="number" required name="e">
+                  <label>Age</label>
+               </div>
+
+               <div class="field">
+                  <select class="form-select" id="gender" name="f" aria-label="Default select example">
+                     <label for="exampleFormControlInput1" class="form-label"> Gender</label>
+                     <option selected>-- select gender --</option>
+                     <option value="Male">Male</option>
+                     <option value="Female">Female</option>
+                  </select>
+               </div>
+
+               <div class="field">
+                  <input type="number" required name="g">
+                  <label>Hight</label>
+               </div>
+               <div class="field">
+                  <input type="number" required name="h">
+                  <label>Weight</label>
+               </div>
+               <div class="field">
+                  <input type="number" required name="i" step="0.01">
+                  <label>BMI</label>
+               </div>
+               <div class="field">
+                  <input type="number" required name="j">
+                  <label>Systolic_bp</label>
+               </div>
+               <div class="field">
+                  <input type="number" required name="k">
+                  <label>Diastolic_bp</label>
+               </div>
+               <div class="field">
+                  <input type="number" required name="l">
+                  <label>Waist</label>
+               </div>
+               <div class="field">
+                  <input type="number" required name="m">
+                  <label>Hip</label>
+               </div>
+               <div class="field">
+                  <input type="number" required name="n" step="0.01">
+                  <label>Waist_Hip_ratio</label>
+               </div>
+
+
+
+
+               <div class="input-group" style="padding-top:20px">
+
+                  <!-- declaration for first field -->
+                  <input type="submit" class="form-control
+      input-sm" value="Submit" />
+
+                  <!-- reducong the gap between them to zero -->
+                  <span class="input-group-btn" style="width:0px;"></span>
+
+                  <!-- declaration for second field -->
+                  <input type="reset" class="form-control
+      input-sm" value="Reset" />
+               
+            </form>
+
+            <br><br>
+            <div class="p">
+            <h2><b>{{prediction_text}}</b></h2>
+            </div>
+         </div>
+        </section>
+     
+</body>
+
+</html>

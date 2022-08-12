@@ -1,0 +1,472 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    background-image: linear-gradient(113deg, rgba(95, 7, 188) 1.00%, rgba(255, 213, 122, 0.1) 95.00%), url("mm.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+.navbar {
+    height: 75px;
+    margin: auto;
+    background-color: black;
+    padding-bottom: 105px;
+    padding-top: 2px;
+}
+
+.navbar a {
+    float: centered;
+    padding: 50px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 45%;
+    /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: center;
+    /* If you want the text to be centered */
+}
+
+.icon {
+    width: 200px;
+    float: left;
+    height: 70px;
+    padding-left: 80px;
+    padding-right: 15px;
+}
+
+.logo {
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px;
+}
+
+.menu {
+    width: 400px;
+    float: left;
+    height: 70px;
+    padding-left: 50px
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+ul li {
+    list-style: none;
+    /* margin-left: px; ##### */
+    margin-top: 27px;
+    font-size: 14px;
+
+}
+
+
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    padding-top: 100%;
+    padding-bottom: 40Spx;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+ul li a2 {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    padding-top: 100%;
+    padding-bottom: 50px;
+    padding-right: 20px;
+    padding-left: 30px;
+}
+
+ul li a:hover {
+    color: #ff7200;
+    border-bottom: 2px solid white;
+    background-color: rgba(95, 7, 188);
+}
+
+.search {
+    width: 330px;
+    float: left;
+    margin-left: 255px;
+    padding-top: 15px;
+}
+
+.srch {
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: #000;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.srch:focus {
+    outline: none;
+}
+
+.content {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+
+.content .par {
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1 {
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.content .cn {
+    width: 160px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+
+}
+
+.content span {
+    color: #ff7200;
+    font-size: 65px
+}
+
+::placeholder {
+    color: #fff;
+    font-family: Arial;
+}
+
+.btnn {
+    width: 240px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+
+.btnn:hover {
+    background: #fff;
+    color: #ff7200;
+}
+
+.btnn a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.liw {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+
+/* -----form----- */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* html,body{
+  display: grid;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+  background: #f2f2f2;
+} */
+::selection {
+    background: #4158d0;
+    color: #fff;
+}
+
+.wrapper {
+    width: 600px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
+    /* padding-top: 50px; ##### */
+}
+
+.wrapper .title {
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 100px;
+    color: #fff;
+    user-select: none;
+    border-radius: 15px 15px 0 0;
+    background: linear-gradient(-135deg, #c850c0, #4158d0);
+}
+
+.wrapper form {
+    padding: 10px 30px 50px 30px;
+}
+
+.wrapper form .field {
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+}
+
+
+
+.wrapper form .field input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    font-size: 17px;
+    padding-left: 20px;
+    border: 1px solid lightgrey;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+.wrapper form .input-group input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    font-size: 17px;
+    padding-left: 20px;
+    border: 1px solid lightgrey;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    height: 50px;
+
+}
+
+.wrapper form .field select {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    font-size: 17px;
+    padding-left: 20px;
+    border: 1px solid lightgrey;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+.wrapper form .field input:focus,
+form .field input:valid {
+    border-color: #4158d0;
+}
+
+.wrapper form .field select:focus,
+form .field select:valid {
+    border-color: #4158d0;
+}
+
+.wrapper form .bgen select:focus,
+form .field select:valid {
+    border-color: lightgrey;
+}
+
+
+form .field input:focus~label,
+form .field input:valid~label {
+    top: 0%;
+    font-size: 16px;
+    color: #4158d0;
+    background: #fff;
+    transform: translateY(-50%);
+}
+
+
+form .field select:focus~label,
+form .field select:valid~label {
+    top: 0%;
+    font-size: 16px;
+    color: #4158d0;
+    background: #fff;
+    transform: translateY(-50%);
+}
+
+.bgen {
+    /* ##########################33 */
+    color: lightgrey;
+}
+
+
+.wrapper form .field label {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    color: #999999;
+    font-weight: 400;
+    font-size: 17px;
+    pointer-events: none;
+    transform: translateY(-50%);
+    transition: all 0.3s ease;
+}
+
+
+
+form .field input[type="submit"] {
+    color: #fff;
+    border: none;
+    padding-left: 0;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    background: linear-gradient(-135deg, #c850c0, #4158d0);
+    transition: all 0.3s ease;
+    width: 45%;
+}
+
+form .input-group input[type="submit"] {
+    color: #fff;
+    border: none;
+    padding-left: 0;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    background: linear-gradient(-135deg, #c850c0, #4158d0);
+    transition: all 0.3s ease;
+    width: 45%;
+    margin-right: 20px;
+    margin-left: 15px;
+}
+
+form .input-group input[type="reset"] {
+    color: #fff;
+    border: none;
+    padding-left: 0;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    background: linear-gradient(-135deg, #c850c0, #4158d0);
+    transition: all 0.3s ease;
+    width: 45%;
+}
+
+form .field input[type="reset"] {
+    color: #fff;
+    border: none;
+    padding-left: 0;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    background: linear-gradient(-135deg, #4158d0, #c850c0);
+    transition: all 0.3s ease;
+    width: 45%;
+}
+
+form .field input[type="reset"]:active {
+    transform: scale(0.95);
+}
+
+form .field input[type="submit"]:active {
+    transform: scale(0.95);
+}
+
+form .pass-link a,
+form .signup-link a {
+    color: #4158d0;
+    text-decoration: none;
+}
+
+form .pass-link a:hover,
+form .signup-link a:hover {
+    text-decoration: underline;
+}
+
+.shift {
+    padding-left: 380px;
+    padding-bottom: 50px;
+
+}
+
+.shift2 {
+    padding-bottom: 50px;
+}
+
+.shiftr {
+    margin-left: 295px;
+}
+
+.p {
+    margin-left:80px;
+    margin-top: 25px;
+    color: #3E0B9C;
+    font-weight: bolder;
+}

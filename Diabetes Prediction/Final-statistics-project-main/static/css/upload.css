@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background-image: linear-gradient(113deg, rgba(95, 7, 188) 1.00%,rgba(255, 213, 122, 0.1) 95.00%),url("mm.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    max-width: 100%;
+}
+
+.navbar{
+    height: 75px;
+    margin: auto;
+    background-color:black;
+    padding-bottom: 32px;
+    padding-top: 2px;
+}
+
+.navbar a {
+  float: centered;
+  padding: 50px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width:45%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  text-align: center; /* If you want the text to be centered */
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+    padding-left: 80px;
+    padding-right: 15px;
+}
+
+.logo{
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+    padding-left: 50px
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+ul li{
+    list-style: none;
+    /* margin-left: px; ##### */
+    margin-top: 27px;
+    font-size: 14px;
+
+}
+
+
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    padding-top:100%;
+    padding-bottom: 40Spx;
+    padding-right: 20px ;
+    padding-left: 20px;
+}
+
+ul li a2{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    padding-top:100%;
+    padding-bottom: 50px;
+    padding-right: 20px ;
+    padding-left: 30px;
+}
+
+ul li a:hover{
+    color: #ff7200;
+    border-bottom: 2px solid white;
+  background-color: rgba(95, 7, 188); 
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 205px;
+    padding-top: 15px;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: #000;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+
+}
+
+.content span{
+    color: #ff7200;
+    font-size: 65px
+}
+
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+.btnn:hover{
+    background: #fff;
+    color: #ff7200;
+}
+.btnn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+ /* -----upload----- */
+
+ /* Import Google font - Poppins */
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+ body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #6990F2;
+}
+
+::selection{
+  color: #fff;
+  background: #6990F2;
+}
+.wrapper{
+  width: 430px;
+  background: #fff;
+  border-radius: 5px;
+  padding: 30px;
+  box-shadow: 7px 7px 12px rgba(0,0,0,0.05);
+}
+.wrapper header{
+  color: #5707AC;
+  font-size: 27px;
+  font-weight: 600;
+  text-align: center;
+}
+.wrapper form{
+  height: 167px;
+  display: flex;
+  cursor: pointer;
+  margin: 30px 0;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 2px dashed #5707AC;
+}
+form :where(i, p){
+  color: #5707AC;
+}
+form i{
+  font-size: 50px;
+}
+form p{
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+section .row{
+  margin-bottom: 10px;
+  background: #E9F0FF;
+  list-style: none;
+  padding: 15px 20px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+section .row i{
+  color: #6990F2;
+  font-size: 30px;
+}
+section .details span{
+  font-size: 14px;
+}
+.progress-area .row .content{
+  width: 100%;
+  margin-left: 15px;
+}
+.progress-area .details{
+  display: flex;
+  align-items: center;
+  margin-bottom: 7px;
+  justify-content: space-between;
+}
+.progress-area .content .progress-bar{
+  height: 6px;
+  width: 100%;
+  margin-bottom: 4px;
+  background: #fff;
+  border-radius: 30px;
+}
+.content .progress-bar .progress{
+  height: 100%;
+  width: 0%;
+  background: #6990F2;
+  border-radius: inherit;
+}
+.uploaded-area{
+  max-height: 232px;
+  overflow-y: scroll;
+}
+.uploaded-area.onprogress{
+  max-height: 150px;
+}
+.uploaded-area::-webkit-scrollbar{
+  width: 0px;
+}
+.uploaded-area .row .content{
+  display: flex;
+  align-items: center;
+}
+.uploaded-area .row .details{
+  display: flex;
+  margin-left: 15px;
+  flex-direction: column;
+}
+.uploaded-area .row .details .size{
+  color: #404040;
+  font-size: 11px;
+}
+.uploaded-area i.fa-check{
+  font-size: 16px;
+}
+
+.up{
+  padding-left: 440px;
+  padding-top: 130px;
+}
